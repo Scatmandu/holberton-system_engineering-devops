@@ -1,2 +1,2 @@
-#!/bin/bash
-grep -ih {^a..z} /etc/ssh/sshd_config
+i!/bin/bash
+grep -e [[:alpha:]] test
