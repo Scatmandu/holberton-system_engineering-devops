@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# displays bad luck on 4th iteration, good luck on 8th, and Holberton School on every other iteration
+i="0"
+while [ "$i" -le 9 ]
+do
+	if [ "$i" -eq 3 ]
+	then
+		echo bad luck
+		((i=i+1))
+	elif [ "$i" -eq 7 ]
+	then
+		echo good luck
+		((i=i+1))
+	else
+		echo Holberton School
+		((i=i+1))
+	fi
+done
