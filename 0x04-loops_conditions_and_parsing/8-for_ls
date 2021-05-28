@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# displays content of current directory after dash in list format
+for ls in *
+do
+
+	echo "${ls#*-}"
+done
