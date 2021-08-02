@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# connects to my server via SSH
-ssh -i ~/.ssh/holberton ubuntu@34.229.194.4

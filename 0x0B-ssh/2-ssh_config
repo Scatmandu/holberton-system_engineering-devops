@@ -1,6 +1,0 @@
-Host web01
-     HostName 34.229.194.4
-     User ubuntu
-     PasswordAuthentication No
-     StrictHostKeyChecking No
-     IdentityFile ~/.ssh/holberton
