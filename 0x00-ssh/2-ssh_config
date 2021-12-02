@@ -1,0 +1,6 @@
+host Scatmandu
+		HostName 34.138.159.69
+		User ubuntu
+		PasswordAuthentication No
+		StrictHostKeyChecking No
+		IdentityFile ~/.ssh/school
