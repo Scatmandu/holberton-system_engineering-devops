@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """given eployee id returns user todo list info from API"""
 
-
-from sys import argv
 import requests
+from sys import argv
+
 
 if __name__ == "__main__":
 
